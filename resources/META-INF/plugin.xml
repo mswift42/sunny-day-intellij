@@ -1,0 +1,31 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>sunny-day ui theme</name>
+  <version>1.0</version>
+  <vendor email="martin.haesler@gmail.com" url="https://github.com/mswift42/">mswift42</vendor>
+
+  <description><![CDATA[
+    IntelliJ UI theme with a bright yellow background.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="de698391-500a-476f-a64e-9d07853b4f9c" path="/sunny_day.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
